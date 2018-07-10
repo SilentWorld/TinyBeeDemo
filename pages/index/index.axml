@@ -1,0 +1,7 @@
+<view>
+  this is a blank page
+  <view>
+    <text>{{ countTime }}</text>
+    <button type="default" size="defaultSize" onTap="defaultTap"> add </button>
+  </view>
+</view>
