@@ -1,6 +1,6 @@
 import tinybee from 'tinybee';
-console.log('asd', tinybee);
-let Bee = tinybee.core.bee;
+let { bee } = tinybee;
+console.log('asd', bee);
 
 export default {
   namespace: 'user',
@@ -36,13 +36,13 @@ export default {
         yield put({ type: 'countAdd' })
     },
     *getSysInfo(action, { call, put }) {
-      const sysInfo = yield call(Bee.asyncApi, 'getSystemInfo');
+      const sysInfo = yield call(bee.asyncApi, 'getSystemInfo');
       yield put({ type: 'getSysInfoSuccess', payload: sysInfo })
     },
 
     *getLocation(action, { call, put }) {
       try {
-        const location = yield call(Bee.asyncApi, 'getLocation');
+        const location = yield call(bee.asyncApi, 'getLocation');
         yield put({ type: 'getLocationSuccess', payload: location })
       } catch (e) {
         console.log(e);
@@ -52,10 +52,10 @@ export default {
     *getUserInfo(action, { call, put }) {
       let userInfo;
       try {
-        let code = yield call(Bee.asyncApi, 'getAuthCode', { scopes: 'auth_user'});
+        let code = yield call(bee.asyncApi, 'getAuthCode', { scopes: 'auth_user'});
         console.log(code)
-        const userInfo  = yield call(Bee.asyncApi, 'getAuthUserInfo');
-        yield call(Bee.asyncApi, 'setStorage', { key: 'userInfo', data: userInfo });
+        const userInfo  = yield call(bee.asyncApi, 'getAuthUserInfo');
+        yield call(bee.asyncApi, 'setStorage', { key: 'userInfo', data: userInfo });
       } catch(e) {
           console.log(e);
       }

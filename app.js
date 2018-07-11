@@ -1,8 +1,11 @@
 import tinybee from 'tinybee';
 import User from './models/User';
 console.log(tinybee);
+
+let { createDvaApp } = tinybee
+
 App(
-    tinybee.core.createDvaApp(
+    createDvaApp(
         {
             onLaunch(options) {
                 // 第一次打开

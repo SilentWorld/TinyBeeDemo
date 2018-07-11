@@ -1,1 +1,5 @@
-{}
+{
+    "usingComponents": {
+        "flex": "tinybee/dist/src/components/flex/index"
+    }
+}
