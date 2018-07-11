@@ -1,6 +1,6 @@
 <view class="flex-container">
   <view class="sub-title">Basic</view>
-  <flex>
+  <flex styleName="background: yellow;">
     <flex>
       <place-holder className="margin-item"/>
     </flex>
@@ -9,7 +9,7 @@
     </flex>
   </flex>
   <white-space size="lg" />
-  <flex>
+  <flex styleName="background: yellow;">
     <flex>
       <place-holder className="margin-item"/>
     </flex>
@@ -21,7 +21,7 @@
     </flex>
   </flex>
   <white-space size="lg" />
-  <flex>
+  <flex styleName="background: yellow;">
     <flex>
       <place-holder className="margin-item"/>
     </flex>
@@ -37,7 +37,7 @@
   </flex>
   <white-space size="lg" />
   <view class="sub-title">Wrap</view>
-  <flex wrap="wrap">
+  <flex wrap="wrap" styleName="background: yellow;">
     <place-holder className="inline" />
     <place-holder className="inline" />
     <place-holder className="inline" />
@@ -48,37 +48,43 @@
   </flex>
   <white-space size="lg" />
   <view class="sub-title">Align</view>
-  <flex justify="center">
+  <view class="sub-center-title">justify center</view>
+  <flex justify="center" styleName="background: yellow;">
     <place-holder className="inline" />
     <place-holder className="inline" />
     <place-holder className="inline" />
   </flex>
   <white-space />
-  <flex justify="end">
+  <view class="sub-center-title">justify end</view>
+  <flex justify="end" styleName="background: yellow;">
     <place-holder className="inline" />
     <place-holder className="inline" />
     <place-holder className="inline" />
   </flex>
   <white-space />
-  <flex justify="between">
+  <view class="sub-center-title">justify between</view>
+  <flex justify="between" styleName="background: yellow;">
     <place-holder className="inline" />
     <place-holder className="inline" />
     <place-holder className="inline" />
   </flex>
   <white-space />
-  <flex align="start">
+  <view class="sub-center-title">align start</view>
+  <flex align="start" styleName="background: yellow;">
     <place-holder className="inline" />
     <place-holder class="inline small" />
     <place-holder className="inline" />
   </flex>
   <white-space />
-  <flex align="end">
+  <view class="sub-center-title">align end</view>
+  <flex align="end" styleName="background: yellow;">
     <place-holder className="inline" />
     <place-holder class="inline small" />
     <place-holder className="inline" />
   </flex>
   <white-space />
-  <flex align="baseline">
+  <view class="sub-center-title">align baseline</view>
+  <flex align="baseline" styleName="background: yellow;">
     <place-holder className="inline" />
     <place-holder class="inline small" />
     <place-holder className="inline" />
