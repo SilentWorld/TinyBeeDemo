@@ -2,6 +2,7 @@
     "usingComponents": {
         "flex": "tinybee/dist/src/components/flex/index",
         "wing-blank": "tinybee/dist/src/components/wing-blank/index",
+        "white-space": "tinybee/dist/src/components/white-space/index",
         "place-holder": "tinybee/dist/src/components/place-holder/index"
     }
 }

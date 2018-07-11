@@ -1,7 +1,8 @@
-<view>
-  this is a blank page
+<view class="container">  this is a blank page    
   <view>
-    <flex direction="row" justify="center" align="center">{{ countTime }}</flex>
+    <flex direction="row" justify="center" align="center" className="xxx" styleName="background: red;">
+      <wing-blank>{{ countTime }}</wing-blank>
+    </flex>
     <text>{{ countTime }}</text>
     <button type="default" size="defaultSize" onTap="defaultTap"> add </button>
   </view>

@@ -1,1 +1,13 @@
 /* required by usingComponents */
+
+page{
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.xxx {
+  height: 300rpx;
+}

@@ -1,0 +1,86 @@
+<view class="flex-container">
+  <view class="sub-title">Basic</view>
+  <flex>
+    <flex>
+      <place-holder className="margin-item"/>
+    </flex>
+    <flex>
+      <place-holder className="margin-item"/>
+    </flex>
+  </flex>
+  <white-space size="lg" />
+  <flex>
+    <flex>
+      <place-holder className="margin-item"/>
+    </flex>
+    <flex>
+      <place-holder className="margin-item"/>
+    </flex>
+    <flex>
+      <place-holder className="margin-item"/>
+    </flex>
+  </flex>
+  <white-space size="lg" />
+  <flex>
+    <flex>
+      <place-holder className="margin-item"/>
+    </flex>
+    <flex>
+      <place-holder className="margin-item"/>
+    </flex>
+    <flex>
+      <place-holder className="margin-item"/>
+    </flex>
+    <flex>
+      <place-holder className="margin-item"/>
+    </flex>
+  </flex>
+  <white-space size="lg" />
+  <view class="sub-title">Wrap</view>
+  <flex wrap="wrap">
+    <place-holder className="inline" />
+    <place-holder className="inline" />
+    <place-holder className="inline" />
+    <place-holder className="inline" />
+    <place-holder className="inline" />
+    <place-holder className="inline" />
+    <place-holder className="inline" />
+  </flex>
+  <white-space size="lg" />
+  <view class="sub-title">Align</view>
+  <flex justify="center">
+    <place-holder className="inline" />
+    <place-holder className="inline" />
+    <place-holder className="inline" />
+  </flex>
+  <white-space />
+  <flex justify="end">
+    <place-holder className="inline" />
+    <place-holder className="inline" />
+    <place-holder className="inline" />
+  </flex>
+  <white-space />
+  <flex justify="between">
+    <place-holder className="inline" />
+    <place-holder className="inline" />
+    <place-holder className="inline" />
+  </flex>
+  <white-space />
+  <flex align="start">
+    <place-holder className="inline" />
+    <place-holder class="inline small" />
+    <place-holder className="inline" />
+  </flex>
+  <white-space />
+  <flex align="end">
+    <place-holder className="inline" />
+    <place-holder class="inline small" />
+    <place-holder className="inline" />
+  </flex>
+  <white-space />
+  <flex align="baseline">
+    <place-holder className="inline" />
+    <place-holder class="inline small" />
+    <place-holder className="inline" />
+  </flex>
+</view>
